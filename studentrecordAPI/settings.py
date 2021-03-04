@@ -26,7 +26,7 @@ SECRET_KEY = 'ij(&w!z4ls$u)m@p_kf=^@9(=f7)u66ewsoj73o0uwelzc&djb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['studentleaderboard-api.herokuapp.com', '127.0.0.1', 'studentleaderboard-kanishk.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -112,6 +112,12 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.AllowAny',
+   )
+}
 
 
 # Internationalization
