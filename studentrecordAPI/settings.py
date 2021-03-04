@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ij(&w!z4ls$u)m@p_kf=^@9(=f7)u66ewsoj73o0uwelzc&djb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['studentleaderboard-api.herokuapp.com', '127.0.0.1', 'studentleaderboard-kanishk.herokuapp.com']
 
 
 # Application definition
