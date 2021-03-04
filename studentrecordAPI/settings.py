@@ -76,14 +76,19 @@ WSGI_APPLICATION = 'studentrecordAPI.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default':
+    {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'studentleaderboard',  #DBNAME
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'u994650754_studentleader',  #DBNAME
+        'USER': 'u994650754_studentleader',
+        'PASSWORD': 'Studentleaderboard@12345',
+        'HOST': 'infinityhaul.com',
         'PORT': '3306',
     }
+    #{
+    #    'ENGINE' : 'django.db.backends.sqlite3',
+    #    'NAME' : ''
+    #}
 }
 
 
