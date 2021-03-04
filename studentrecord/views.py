@@ -11,7 +11,7 @@ from .models import Studentrecord
 def apiInfo(request):
     api_urls = {
         'ViewAll':'/students-records/view-all/',
-        'ViewOne':'/students-records/view/<it:id>',
+        'ViewOne':'/students-records/view/<rollno>',
         'Create':'/students-records/create/',
         'Update':'/students-records/update/<str:Id>',
         'Delete':'/students-records/delete/<str:Id>',
