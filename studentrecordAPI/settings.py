@@ -26,7 +26,7 @@ SECRET_KEY = 'ij(&w!z4ls$u)m@p_kf=^@9(=f7)u66ewsoj73o0uwelzc&djb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['studentleaderboard-api.herokuapp.com', '127.0.0.1', 'studentleaderboard-kanishk.herokuapp.com']
+ALLOWED_HOSTS = ['studentleaderboard-api.herokuapp.com', '127.0.0.1', 'studentleaderboard-kanishk.herokuapp.com', 'localhost']
 
 
 # Application definition

@@ -10,11 +10,12 @@ from .models import Studentrecord
 @api_view(['GET'])
 def apiInfo(request):
     api_urls = {
-        'View':'/student-records/view-all/',
-        'Create':'/student-records/view/<str:rollno>',
-        'Update':'/student-records/update/<str:pk>',
-        'Delete':'/student-records/delete/<str:pk>',
-    } 
+        'ViewAll':'/students-records/view-all/',
+        'ViewOne':'/students-records/view/<it:id>',
+        'Create':'/students-records/create/',
+        'Update':'/students-records/update/<str:Id>',
+        'Delete':'/students-records/delete/<str:Id>',
+    }
     return Response(api_urls)
 
 
